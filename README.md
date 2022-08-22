@@ -1,71 +1,58 @@
-# Getting Started with Create React App
+## Al-Qur-an WEB
+  Made using ReactJS
+  
+  
+  
+# List Surat
+Firebase: https://al-quran-8d642.firebaseio.com/data.json?print=pretty<br>
+Npoint: https://api.npoint.io/99c279bb173a6e28359c/data
+```
+[ 
+	{
+	  "arti" : "Pembukaan",
+	  "asma" : "الفاتحة",
+	  "audio" : "http://ia802609.us.archive.org/13/items/quraninindonesia/001AlFaatihah.mp3",
+	  "ayat" : 7,
+	  "keterangan" : "Surat <i>Al Faatihah</i> (Pembukaan) yang diturunkan di Mekah dan terdiri dari 7 ayat adalah surat yang ...",
+	  "nama" : "Al Fatihah",
+	  "nomor" : "1",
+	  "rukuk" : "1",
+	  "type" : "mekah",
+	  "urut" : "5"
+	}, 
+	{
+	  "arti" : "Sapi Betina",
+	  "asma" : "البقرة",
+	  "audio" : "http://ia802609.us.archive.org/13/items/quraninindonesia/002AlBaqarah.mp3",
+	  "ayat" : 286,
+	  "keterangan" : "Surat <i>Al Baqarah</i> yang 286 ayat itu turun di Madinah yang sebahagian besar diturunkan pada permulaan ...",
+	  "nama" : "Al Baqarah",
+	  "nomor" : "2",
+	  "rukuk" : "40",
+	  "type" : "madinah",
+	  "urut" : "87"
+	},
+	...
+]
+```
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Al-Qur-an
+# List Ayat
+Firebase: https://al-quran-8d642.firebaseio.com/surat/1.json?print=pretty<br>
+Npoint: https://api.npoint.io/99c279bb173a6e28359c/surat/1
+```
+[ 
+	{
+	  "ar" : "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+	  "id" : "Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang.",
+	  "nomor" : "1",
+	  "tr" : "bismi <strong>al</strong>l<u>aa</u>hi <strong>al</strong>rra<u>h</u>m<u>aa</u>ni <strong>al</strong>rra<u>h</u>iim<strong>i</strong>"
+	}, 
+	{
+	  "ar" : "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+	  "id" : "Segala puji bagi Allah, Tuhan semesta alam.",
+	  "nomor" : "2",
+	  "tr" : "al<u>h</u>amdu lill<u>aa</u>hi rabbi <strong>a</strong>l'<u>aa</u>lamiin<strong>a</strong>"
+	}, 
+	...
+]
+```
